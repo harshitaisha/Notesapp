@@ -3,19 +3,27 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9; 
-    color: #333; 
+    color: #333232; 
 }
 
 .container {
-    max-width: 800px;
+    /*max-width: 800px;*/
     margin: 0 auto;
     padding: 20px;
     background-color: #fff; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-image: url("https://allthings.how/content/images/wordpress/2021/07/allthings.how-how-to-use-sticky-notes-in-windows-11-sticky-note.png");
     background-repeat: repeat; 
-    background-size: cover; 
-    background-position: center center;
+     
+height: 90vh;
+width: 100%;
+background-size: cover;
+background-position: center right;
+padding: 0 80px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
 }
 
 header {
@@ -205,7 +213,7 @@ left: 20px;
 /* home page */
 
 #hero {
-background-image: url("img/wer.jpg");
+background-image: url("img/background.jpg");
 height: 90vh;
 width: 100%;
 background-size: cover;
@@ -365,7 +373,5 @@ footer .copyright{
   margin-bottom: 25px;
 }
 }
-}
-
 
 
